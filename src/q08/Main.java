@@ -1,6 +1,4 @@
-
 import java.util.*;
-
 public class Main {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
@@ -16,6 +14,7 @@ public class Main {
                 top++;
                 stack[top] = x;
             } 
+                
             else if (op.equals("POP")) {
                 if (top == -1) {
                     System.out.println("EMPTY");
