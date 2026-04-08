@@ -7,7 +7,6 @@ public class Main {
         if (shape.equals("circle")) {
             double r = sc.nextDouble();
             area = Math.PI * r * r;
-
         } else if (shape.equals("rectangle")) {
             double l = sc.nextDouble();
             double w = sc.nextDouble();
