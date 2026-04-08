@@ -13,7 +13,8 @@ public class Main {
                 int b = stack.pop();
                 int a = stack.pop();
                 stack.push(a + b);
-            } else if (token.equals("-")) {
+            }
+            else if (token.equals("-")) {
                 int b = stack.pop();
                 int a = stack.pop();
                 stack.push(a - b);
