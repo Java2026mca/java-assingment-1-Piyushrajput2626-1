@@ -9,6 +9,7 @@ public class Main {
             if (i != n - 1) {
                 System.out.print(" ");
             }
+            
             int c = a + b;
             a = b;
             b = c;
