@@ -23,6 +23,7 @@ public class Main {
                     top--;
                 }
             } 
+                
             else if (op.equals("PEEK")) {
                 if (top == -1) {
                     System.out.println("EMPTY");
@@ -30,6 +31,7 @@ public class Main {
                     System.out.println(stack[top]);
                 }
             } 
+                
             else if (op.equals("SIZE")) {
                 System.out.println(top + 1);
             }
