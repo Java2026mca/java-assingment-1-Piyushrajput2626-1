@@ -18,6 +18,7 @@ public class Main {
             double s = (a + b + c) / 2.0;
             area = Math.sqrt(s * (s - a) * (s - b) * (s - c));
         }
+        
         System.out.printf("Area: %.2f\n", area);
     }
 }
